@@ -3,9 +3,10 @@ pytest
 mock
 pytest-mock
 wheel
-setuptools>=17.1
+setuptools>=78.1.1
 pexpect
 pypandoc
 pytest-benchmark
 pytest-docker-pexpect
 twine
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
